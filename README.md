@@ -13,9 +13,9 @@ TSForecastPortfolioMgmt/
 ├── data/                            # Raw and processed datasets
 │
 ├── notebooks/                       # Jupyter notebooks for EDA and forecasting
-│   ├── eda\_tsla\_bnd\_spy.ipynb      # Exploratory data analysis for TSLA, BND, SPY
+│   ├── eda_tsla_bnd_spy.ipynb      # Exploratory data analysis for TSLA, BND, SPY
 │   ├── Forecast Future Market Trends.ipynb
-│   └── forecast\_tsla.ipynb          # Tesla stock price forecasting example
+│   └── forecast_tsla.ipynb          # Tesla stock price forecasting example
 │
 ├── src/                            # Source code modules
 │   ├── data\_preparation/
@@ -36,7 +36,7 @@ TSForecastPortfolioMgmt/
    ```bash
    git clone https://github.com/kumsa-Mergia/TSForecastPortfolioMgmt.git
    cd TSForecastPortfolioMgmt
-````
+   ````
 
 2. Create a virtual environment and activate it:
 
