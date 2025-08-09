@@ -4,4 +4,8 @@ numpy
 matplotlib 
 seaborn 
 statsmodels 
-scikit-learn
+scikit-learn 
+plotly.express 
+pmdarima 
+tensorflow>=2.10
+joblib
