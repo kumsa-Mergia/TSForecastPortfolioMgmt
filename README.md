@@ -72,6 +72,7 @@ To install  'pypfopt' use
 ```
 !pip install git+https://github.com/robertmartin8/PyPortfolioOpt.git
 ```
+=======
 ## Contributing
 
 Contributions are welcome! Please open issues or pull requests for bug fixes, improvements, or new features.
