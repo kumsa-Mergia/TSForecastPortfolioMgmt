@@ -9,3 +9,4 @@ plotly.express
 pmdarima 
 tensorflow>=2.10
 joblib
+pypfopt

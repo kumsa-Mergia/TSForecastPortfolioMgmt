@@ -12,17 +12,17 @@ TSForecastPortfolioMgmt/
 │
 ├── data/                            # Raw and processed datasets
 │
-├── notebooks/                       # Jupyter notebooks for EDA and forecasting
-│   ├── eda_tsla_bnd_spy.ipynb      # Exploratory data analysis for TSLA, BND, SPY
+├── notebooks/                       
+│   ├── eda_tsla_bnd_spy.ipynb     
 │   ├── Forecast Future Market Trends.ipynb
-│   └── forecast_tsla.ipynb          # Tesla stock price forecasting example
+│   └── forecast_tsla.ipynb          
+│   └── PortfolioOptimizer.ipynb
 │
 ├── src/                            # Source code modules
-│   ├── data\_preparation/
-│   │   └── financial\_data\_analyzer.py  # Financial data preprocessing and analysis
+│   ├── data_preparation/
+│   │   └── financial_data_analyzer.py  # Financial data preprocessing and analysis
 │   ├── forecasting/
 │   │   └── StockForecaster.py         # Time series forecasting models
-│   └── portfolio\_optimization/        # Portfolio optimization code
 │
 ├── requirements.txt                # Python dependencies
 ├── README.md                      # Project documentation
@@ -67,6 +67,12 @@ forecaster.plot_price_history()
 forecaster.forecast_arima(order=(5,1,2), future_steps=30)
 ```
 
+
+To install  'pypfopt' use
+```
+!pip install git+https://github.com/robertmartin8/PyPortfolioOpt.git
+```
+=======
 ## Contributing
 
 Contributions are welcome! Please open issues or pull requests for bug fixes, improvements, or new features.
