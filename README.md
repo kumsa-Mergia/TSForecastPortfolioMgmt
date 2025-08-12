@@ -17,6 +17,7 @@ TSForecastPortfolioMgmt/
 │   ├── Forecast Future Market Trends.ipynb
 │   └── forecast_tsla.ipynb          
 │   └── PortfolioOptimizer.ipynb
+│   └── Strategy Backtesting.ipynb
 │
 ├── src/                            # Source code modules
 │   ├── data_preparation/
